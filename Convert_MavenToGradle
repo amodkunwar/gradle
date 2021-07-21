@@ -1,8 +1,10 @@
 Convert maven project to gradle in eclipse.
-1. Open command prompt
-2. "gradle clean" in cmd prompt
-3. delete pom.xml
-4. gradle build in cmd prompt
-5. add "apply plugin : 'eclipse'" in build.gradle
-6. gradle eclipse in cmd prompt
-7. Refresh the project
+
+1. gradle init
+2. Open command prompt
+3. "gradle clean" in cmd prompt
+4. delete pom.xml
+5. gradle build in cmd prompt
+6. add "apply plugin : 'eclipse'" in build.gradle
+7. gradle eclipse in cmd prompt
+8. Refresh the project
